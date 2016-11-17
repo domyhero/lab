@@ -1,19 +1,19 @@
-# redis 集群搭建
+# Redis 集群搭建
 
-redis 3.0的集群搭建示例，create-cluster 脚本来自redis源码的utils目录，改了下路径。
+Redis 3.0的集群搭建示例，create-cluster 脚本来自Redis源码的utils目录，改了下路径。
 
-redis集群教程：
+Redis集群教程：
 http://redisdoc.com/topic/cluster-tutorial.html
 
 ## 开始
 
-编译安装redis：
+编译安装Redis：
 
 ```shell
 $ sh build.sh
 ```
 
-启动6个redis实例，端口为7001 - 7006：
+启动6个Redis实例，端口为7001 - 7006：
 ```shell
 $ ./create-cluster start
 Starting 7001
@@ -80,7 +80,7 @@ S: bc9f5d9b9dde4a670ec5ad35faac7132796969af 127.0.0.1:7004
 
 ## 停止
 
-停掉所有redis实例：
+停掉所有Redis实例：
 ```shell
 $ ./create-cluster stop
 Stopping 7001
