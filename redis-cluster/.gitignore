@@ -1,5 +1,5 @@
 bin
-.log
-.rdb
-.conf
-.aof
+*.log
+*.rdb
+*.conf
+*.aof
