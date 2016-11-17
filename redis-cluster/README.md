@@ -2,6 +2,9 @@
 
 redis 3.0的集群搭建示例，create-cluster 脚本来自redis源码的utils目录，改了下路径。
 
+redis集群教程：
+http://redisdoc.com/topic/cluster-tutorial.html
+
 ## 开始
 
 编译安装redis：
